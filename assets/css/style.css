@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* all these div styles should be changed to header or section to match the HTML element */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* move the img url to the HTML img element  */
 .hero {
     height: 800px;
     width: 100%;
@@ -187,7 +187,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* change into or add a footer to this styling */
 .footer {
     padding: 30px;
     clear: both;
