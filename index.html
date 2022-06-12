@@ -9,11 +9,14 @@
 
 <body>
     <!-- replace header class div with header element -->
-    <div class="header">
+    <section class="header">
         <!-- remove span element and replace with multiple <h1> with id's for styling -->
-        <h1>Hori<span class="seo">seo</span>n</h1>
+            <!-- might be able to use <p class="seo"> with display: inline; added to the css -->
+        <h1 id="name">Hori
+            <h1 id="seo">seo</h1><h1>n</h1>
+                    
         <!-- maybe replace this with a nav element -->
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,10 +28,10 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </section>
     <!-- Start of pictures and main site content -->
-    <!-- this div .hero holds the large picture with the meeting replace with img element and remove the background-image portion from css  -->
+    <!-- this div .hero holds the large picture with the meeting, replace with img element and remove the background-image portion from css  -->
     <img class="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="A table meeting of marketing professionals." ></img>
     <!-- this .content div contains the three blue boxes with <p> tags -->
     <section class="content">
