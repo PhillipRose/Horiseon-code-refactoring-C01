@@ -70,24 +70,9 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* placement of the first and third images in the horizontal boxes */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-/* placement of the second image in the horizontal boxes */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
-/* general styling for the three horizontal boxes */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+
 
 /* general styling for the vertical box   */
 .benefits {
@@ -154,6 +139,26 @@ p {
     max-width: 150px;
 }
 
+
+/* general styling for the three horizontal boxes */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* placement of the first and third images in the horizontal boxes */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* placement of the second image in the horizontal boxes */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /* styling for placement and color inside the first horizontal box  */
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -162,6 +167,17 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+/* First box heading  */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* first box image */
+.search-engine-optimization img {
+    max-height: 200px;
 }
 
 /* styling for placement and color inside the second horizontal box  */
@@ -174,6 +190,17 @@ p {
     color: #ffffff;
 }
 
+/* second box heading  */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* second box image  */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
 /* styling for placement and color inside the third horizontal box  */
 .social-media-marketing {
     margin-bottom: 20px;
@@ -184,37 +211,17 @@ p {
     color: #ffffff;
 }
 
-/* first box image */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-/* second box image  */
-.online-reputation-management img {
-    max-height: 200px;
-}
- /* third box image  */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* First box heading  */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* second box heading  */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* third box heading  */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+ /* third box image  */
+ .social-media-marketing img {
+    max-height: 200px;
+}
+
 /* change into or add a footer to this styling */
 
 /* base format of the footer  */
