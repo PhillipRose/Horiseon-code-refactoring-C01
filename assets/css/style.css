@@ -83,19 +83,17 @@ p {
     background-color: #2589bd;
 }
 
-/* change order of this styling so all parts of each item are grouped together */
-
 /* This is the first display on the vertical box */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Title for display */
+/* Title 1 */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* image size and placement */
+/* image 1 size and placement */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -107,12 +105,12 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Title for display */
+/* Title 2 */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* image size and placement */
+/* image 2 size and placement */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -124,12 +122,12 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Title for display */
+/* Title 3 */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* image size and placement */
+/* image 3 size and placement */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
@@ -143,13 +141,13 @@ p {
     margin-left: 20px;
 }
 
-/* placement of the first and third images in the horizontal boxes */
+/* placement of image 1 +3 in the horizontal boxes */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* placement of the second image in the horizontal boxes */
+/* placement of image 2 in the horizontal boxes */
 .float-right {
     float: right;
     margin-left: 25px;
